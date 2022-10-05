@@ -23,12 +23,14 @@ Fylo landing page with two column layout challenge on Frontend Mentor
 
 ### Screenshot
 
+![desktop-design](https://user-images.githubusercontent.com/88828065/194061643-0f4e7d6b-efde-4c53-b0ab-d96e94179abf.jpg)
 
+![mobile-design](https://user-images.githubusercontent.com/88828065/194061688-01f8dd77-a25b-4247-ad3e-4197b90a941d.jpg)
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Livesite](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9/hub/responsive-fylo-landing-page-with-flex-and-grid-N5fCILzhED)
+- Live Site URL: [Livesite](https://bejewelled-crostata-99cd8c.netlify.app/)
 
 ## My process
 
@@ -49,7 +51,7 @@ The filter property in css
 }
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://bejewelled-crostata-99cd8c.netlify.app/)
 - Frontend Mentor - [@yHawigirmachew](https://www.frontendmentor.io/profile/Hawigirmachew)
 - Twitter - [@girmachee_h](https://www.twitter.com/girmachee_h)
 
