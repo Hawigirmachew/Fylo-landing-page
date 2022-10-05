@@ -28,7 +28,7 @@ Fylo landing page with two column layout challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9/hub/responsive-fylo-landing-page-with-flex-and-grid-N5fCILzhED)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5/hub/responsive-fylo-landing-page-with-flex-and-grid-fGz564DWaF)
 - Live Site URL: [Livesite](https://bejewelled-crostata-99cd8c.netlify.app/)
 
 ## My process
