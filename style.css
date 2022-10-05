@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;600&display=swap");
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 40px 0 100px;
+}
+/* HEADER AND NAV */
+.header {
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-item {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+}
+.list-item + .list-item {
+  margin-left: 40px;
+}
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+/* main  */
+.main {
+  margin: 100px auto 0;
+}
+/* section fylo */
+.fylo-main {
+  margin-top: 60px;
+}
+.head {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 1.2rem;
+  font-family: "Raleway", sans-serif;
+}
+.description {
+  font-size: 1.3rem;
+}
+.input {
+  margin-top: 1.2rem;
+}
+#email {
+  max-width: 20.8rem;
+  width: 100%;
+  height: 3rem;
+  padding: 10px;
+  margin-right: 0.75rem;
+
+  border-top: 1px solid black;
+}
+.btn {
+  padding: 0.52em 3.5em;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+.image {
+  width: 100%;
+}
+.btn-2:hover {
+  cursor: pointer;
+  background-color: hsla(224, 76%, 67%, 0.644);
+}
+.btn-2 {
+  max-width: 320px;
+  width: 100%;
+  height: 3rem;
+}
+/* section stay */
+.stay {
+  background-image: url("./images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 30px;
+}
+.head2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+.fylo-1 p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.quote {
+  margin-top: 50px;
+  max-width: 450px;
+  width: 100%;
+  padding: 2.5rem 1.8rem;
+  background-color: white;
+  box-shadow: 3px 3px 10px hsl(0, 0%, 75%);
+}
+.avatar {
+  display: flex;
+  align-items: center;
+}
+.kyle {
+  max-width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.desc h3,
+.desc p {
+  font-size: 0.6rem;
+}
+.illustration {
+  padding-left: 55px;
+}
+/* section last */
+.last {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+}
+.wrapper-last {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 40px 0 100px;
+  margin: 0 auto;
+  max-width: 1330px;
+  width: 100%;
+}
+.see {
+  color: hsl(170, 45%, 43%);
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+.see:hover {
+  cursor: pointer;
+  color: hsla(170, 45%, 43%, 0.719);
+}
+.see img {
+  vertical-align: middle;
+}
+.second {
+  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+#youremail {
+  max-width: 30rem;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+input[placeholder="email@example.com"] {
+  color: rgba(255, 255, 255, 0.452);
+}
+.btn-1 {
+  max-width: 300px;
+  height: 60px;
+}
+.btn-1:hover {
+  cursor: pointer;
+  background-color: hsla(192, 93%, 58%, 0.384);
+}
+/* footer */
+.footer {
+  background-color: hsl(243, 87%, 12%);
+}
+.footer .wrapper {
+  padding-top: 5px;
+  justify-content: space-between;
+}
+.phonEmail {
+  list-style: none;
+  color: white;
+}
+.footer-list1,
+.footer-list2 {
+  list-style: none;
+}
+.footer-list1 a,
+.footer-list2 a {
+  color: white;
+  text-decoration: none;
+}
+.footer-list1 + .footer-list1,
+.footer-list2 + .footer-list2,
+.phonEmail + .phonEmail {
+  margin-top: 10px;
+}
+.footer-logo {
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.footerlogo {
+  filter: brightness(0) invert(1);
+}
+.phonEmail img {
+  margin-right: 0.6rem;
+}
+.icon {
+  display: inline-block;
+  position: relative;
+}
+.icon + .icon {
+  margin-left: 10px;
+}
+.icon img {
+  padding: 0.6rem;
+  filter: brightness(0) invert(1);
+}
+/* .icon a::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  right: 0px;
+} */
+.lists1 a:hover,
+.lists2 a:hover {
+  cursor: pointer;
+  color: #3c9f8f;
+}
+.icon a:hover {
+  filter: invert(61%) sepia(6%) saturate(3708%) hue-rotate(121deg)
+    brightness(88%) contrast(85%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color:white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 400px;
+  }
+  .list-item + .list-item {
+    margin-left: 20px;
+  }
+  .stay .wrapper,
+  .fylo .wrapper {
+    max-width: 400px;
+    flex-direction: column-reverse;
+  }
+  .fylo {
+    margin-bottom: 30px;
+  }
+  .fylo-main {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .image {
+    max-width: 600px;
+    width: 100%;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #email {
+    margin-bottom: 1rem;
+  }
+  .stay {
+    background-image: url("./images/bg-curve-mobile.svg");
+  }
+
+  .wrapper-last {
+    max-width: 400px;
+
+    grid-template-columns: 1fr;
+  }
+  .first {
+    text-align: center;
+  }
+  .second {
+    padding-left: 0;
+    align-items: center;
+  }
+  .see {
+    text-align: center;
+  }
+  #youremail {
+    padding: 0.62rem 4rem;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  .btn-1 {
+    min-height: 40px;
+    width: 100%;
+  }
+  .footer .wrapper {
+    max-width: 400px;
+    flex-direction: column;
+  }
+  .footer .wrapper div {
+    margin-top: 40px;
+  }
+  .footer-logo {
+    max-width: 400px;
+  }
+  .icon {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
