@@ -25,7 +25,6 @@ Fylo landing page with two column layout challenge on Frontend Mentor
 
 ![desktop-design](https://user-images.githubusercontent.com/88828065/194061643-0f4e7d6b-efde-4c53-b0ab-d96e94179abf.jpg)
 
-![mobile-design](https://user-images.githubusercontent.com/88828065/194061688-01f8dd77-a25b-4247-ad3e-4197b90a941d.jpg)
 
 ### Links
 
